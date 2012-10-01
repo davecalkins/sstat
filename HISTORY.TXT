@@ -1,0 +1,16 @@
+sstat revision history
+================================================================================
+v1.6, 2005-12-10
+    - updated contact info, added web page URL, re-released
+    - updated default config file
+
+v1.5, 2004-12-02
+    - icon re-work to make the icons clearer and to add up/down arrow and
+      question mark indicator, providing a second state indicator in addition
+      to just color (which supports viewing by someone who can't distinguish
+      red/green)
+    - found and fixed a handle leak which would cause all servers to show as
+      down after running sstat long enough with sufficient server downtime
+    - when the main window is minimized, it now gets hidden (doesn't show on
+      windows desktop toolbar).  clicking on the tray icon will restore it
+    - updated a number of server IPs for the wow config files
